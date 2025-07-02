@@ -1,0 +1,24 @@
+---
+title: "Practical 1: Introduction to R"
+output: html_document
+---
+
+## Getting Started
+
+This practical introduces basic R operations and data handling.
+
+```{r}
+# Load required packages
+library(tidyverse)
+
+# Create a simple data frame
+df <- tibble(ID = 1:5, Score = c(88, 92, 76, 81, 95))
+
+# Summary statistics
+summary(df)
+
+# Plotting
+ggplot(df, aes(x = ID, y = Score)) +
+  geom_line() +
+  geom_point() +
+  theme_minimal()
