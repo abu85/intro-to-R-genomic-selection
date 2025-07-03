@@ -1,0 +1,46 @@
+project:
+  type: website
+
+website:
+  title: "Advanced illustration options"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "How to contribute"
+        href: index.qmd
+      - section: "combine plots with patchwork"
+        contents:
+          - ggplot_patchwork.qmd
+      - section: "pngs in plots"
+        contents:
+          - images_in_R_plots.qmd
+      - section: "maps in quarto"
+        contents:
+          - quarto_maps.qmd  
+      - section: "interactive graphs"
+        contents: 
+          - interactive_graphs.qmd
+      - section: "genome visualization"
+        contents:
+          - genome_visualization.qmd
+        
+
+format: 
+  html:
+    code-fold: true
+    code-summary: "Click here to show the code"
+    code-tools: true
+    theme: 
+      - solar
+    self-contained: true
+    page-layout: full
+    toc: true
+    toc-depth: 3
+    css: styles.css
+    include-in-header:
+      - file: github-corner.html
+# engine: knitr
+
+execute:
+  freeze: auto
