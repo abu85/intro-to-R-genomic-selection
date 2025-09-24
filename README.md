@@ -9,13 +9,13 @@ For linux we will follow [The Unix Shell](https://swcarpentry.github.io/shell-no
 - `data/`: Sample genotype and phenotype datasets
 - `slides/`: Lecture slides
 - `resources/`: Additional resources and cheat sheets
-- `solutions/`: Solutions to practical exercises (optional)
+- `solutions/`: Solutions to practical exercises
 
 ## 🧰 Requirements
-
+- Linux/WSL/Unix/Ubuntu/Shell
 - R (version ≥ 4.0)
 - RStudio
-- Recommended packages: `tidyverse`, `data.table`, `vcfR`, `ggplot2`, `readr`, `factoextra`
+- Recommended packages: `tidyverse` ???
 
 ## 🚀 Getting Started
 
@@ -29,11 +29,11 @@ For linux we will follow [The Unix Shell](https://swcarpentry.github.io/shell-no
 
 3. Install required packages:
    ```r
-   install.packages(c("tidyverse", "data.table", "vcfR", "ggplot2", "readr", "factoextra"))
+   install.packages(c("tidyverse"??????))
    ```
 
-4. Start with the practicals in the `practicals/` folder.
+4. After Lunch (Start with the practicals in the `practicals/` folder.)
 
 ## 📬 Contact
 
-For questions or feedback, contact Your Name.
+For questions or feedback, contact at abu.siddique@slu.se
