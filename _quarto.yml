@@ -1,0 +1,18 @@
+project:
+  type: website
+
+website:
+  title: "Intro to Linux & R"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Practicals
+        href: practicals.md
+      - text: Slides
+        href: slides.md
+      - text: Resources
+        href: resources/index.qmd
+      - text: Scripts
+        href: scripts/index.qmd
+      - text: Solutions

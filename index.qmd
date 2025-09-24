@@ -1,0 +1,6 @@
+---
+title: "Intro to R for Genomic Selection"
+---
+
+Welcome to the course! This site contains practicals, slides, scripts, and resources for learning R in the context of genomic selection.
+
