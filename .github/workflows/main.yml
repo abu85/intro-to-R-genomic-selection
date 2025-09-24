@@ -8,7 +8,7 @@ website:
     search: true
     contents:
       - text: "How to contribute"
-        href: index.md
+        href: index.qmd
       - section: "combine plots with patchwork"
         contents:
           - ggplot_patchwork.qmd
