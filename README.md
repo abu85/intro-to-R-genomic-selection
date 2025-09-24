@@ -1,8 +1,6 @@
+# Introduction to Linux and R 
 
-
-# Introduction to R for Genomic Selection
-
-Welcome to the course materials for the half-day session on **Introduction to R** as part of the Genomic Selection PhD-level course.
+For linux we will follow [The Unix Shell](https://swcarpentry.github.io/shell-novice/) tutorial
 
 ## 📚 Contents
 
