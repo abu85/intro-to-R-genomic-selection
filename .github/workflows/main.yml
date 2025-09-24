@@ -7,17 +7,14 @@ website:
     style: "docked"
     search: true
     contents:
-      - text: "How to contribute"
-        href: index.qmd
-      - section: "combine plots with patchwork"
+      - text: "Overview"
+        href: index.md
+      - section: "Lecture slides"
         contents:
-          - ggplot_patchwork.qmd
-      - section: "pngs in plots"
+          - slides.md
+      - section: "Lab practicals"
         contents:
-          - images_in_R_plots.qmd
-      - section: "maps in quarto"
-        contents:
-          - quarto_maps.qmd  
+          - practicals.md  
       - section: "interactive graphs"
         contents: 
           - interactive_graphs.qmd
